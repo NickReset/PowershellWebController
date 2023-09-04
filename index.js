@@ -40,9 +40,6 @@ io.on('connection', (socket) => {
         console.log('user disconnected');
         powershell.stdin.destroy();
     });
-
-    // 
-
 });
 
 server.listen(PORT, () => console.log(`server is running on https://localhost:${PORT}`));
