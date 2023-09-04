@@ -8,3 +8,8 @@
 npm i
 node index.js
 ```
+
+## Explaining what this app does
+basically the app allows you to control your computers terminal but on the web so like you can fun with it and like allow your friends to control your terminal and stuff like that 
+<!-- make red text saying not to use it for bad things -->
+<p style="color:red">Do not use for Bad things please</p>
