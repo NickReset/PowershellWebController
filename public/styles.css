@@ -1,0 +1,47 @@
+@import url('https://fonts.cdnfonts.com/css/cascadia-code');
+
+* {
+    color: white;
+    font-family: 'Cascadia Code';
+    font-size: 15px;
+
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    overflow: hidden;
+}
+
+body {
+    background-color: black;
+}
+
+#input {
+    color: yellow;
+    caret-color: white;
+    width: 100%;
+    position: relative;
+}
+
+#text {
+    margin: 0;
+    padding: 0;
+}
+
+.error {
+    color: red;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
